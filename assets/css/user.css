@@ -42,7 +42,7 @@ h4{
 .main-logo{
   height: 200px;
   margin-top: -65px;
-  margin-left: -110px;
+  margin-left: -190px;
 }
 
 .btn-lg{
@@ -589,7 +589,7 @@ div.cuadro-ramon{
     width: 250px !important;
     font-size: 1em !important;
   }
-  .hide-names{
+  .hide-names, .hide-numbers{
     display: none
   }
   .navbar li{
@@ -607,7 +607,11 @@ div.cuadro-ramon{
     width: 200px !important;
     font-size: .8em !important;
   }
+  .hide-numbers{
+    display: block;
+  }
 }
+
 
 
 @media screen and (max-width: 400px){

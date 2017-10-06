@@ -22,7 +22,7 @@ $(document).ready(function(){
         }
     })
 
-
+     alert("js activo")
      // Instagram Request
      let apiKey = "5e983c4725ec4fbea6ebdbe7be6fdeb2";
 

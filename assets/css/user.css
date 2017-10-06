@@ -562,12 +562,20 @@ div.cuadro-ramon{
   width: 80%;
 }
 
+#galeria{
+  background-color: #EEEEEE;
+}
+
 .box{
-  width: 30%;
-  height: 300px;
-  border: 1px solid grey;
+  width: 250px;
+  height: 250px;
+  border: 1px solid #EEEEEE;
   border-radius: 10px;
   margin: 2em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4em;
 }
 
 .instagram-container{
@@ -576,21 +584,51 @@ div.cuadro-ramon{
   justify-content: center;
 }
 
+
+
 .box-galery{
-  width: 33.33%;
+  width: 30%;
   height: 400px;
-  border: 1px solid black;
 }
 
 .redes-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
-
 
 }
 
+.galery-item{
+  height: 100%;
+  width: 100%;
+}
 
+
+.box i{
+  font-size: 10em;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+#twitter:hover{
+  transition: .4s;
+  background-color: #55acee;
+  color: white;
+}
+
+#instagram:hover{
+  transition: .4s;
+  background-color: #e4405f;
+  color: white;
+}
+
+#facebook:hover{
+  transition: .4s;
+  background-color: #3b5999;
+  color: white;
+}
 
 @media screen and (max-width:1600px){
   h1{

@@ -562,6 +562,36 @@ div.cuadro-ramon{
   width: 80%;
 }
 
+.box{
+  width: 30%;
+  height: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.instagram-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-galery{
+  width: 33.33%;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.redes-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+
+
+
 @media screen and (max-width:1600px){
   h1{
     font-size: 14em !important;

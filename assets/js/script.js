@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var clickeado = false; 
-     var links = $("[href]");
+  var links = $("[href]");
      links.click(function() {
      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
          && location.hostname == this.hostname) {
@@ -19,8 +19,26 @@ $(document).ready(function(){
                  }   
                return false;
             }
-      
-       }
+        }
+    })
+
+
+     // Instagram Request
+     let apiKey = "5e983c4725ec4fbea6ebdbe7be6fdeb2";
+
+     $.ajax({
+      url: 'https://api.instagram.com/v1/users/self/media/recent/?access_token=5e983c4725ec4fbea6ebdbe7be6fdeb2',
+
+      error: function() {
+        alert('error');
+      },
+
+      success: function(data) {
+       alert('yes');
+       console.log(data)
+      },
+      type: 'GET',
+      dataType: "jsonp"
    });
      
 });

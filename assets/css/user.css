@@ -716,7 +716,9 @@ a:hover{
   ul.nav{
     font-size: .8em;
     margin-top: 0;
-
+  }
+  .jumbotron.hero{
+    height: 120vh;
   }
 
 }

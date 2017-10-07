@@ -679,25 +679,6 @@ a:hover{
 
 }
 
-@media screen and (max-width: 700px){
-  h1{
-    font-size: 8em !important;
-  }
-  a.btn{
-    width: 200px !important;
-    font-size: .8em !important;
-  }
-  .hide-numbers{
-    display: block;
-  }
-  .instagram-container{
-    display: none;
-  }
-  .box-galery{
-    height: 250px;
-  }
-  
-}
 
 @media screen and (max-height: 700px){
   h1{
@@ -754,3 +735,36 @@ a:hover{
   }
 }
 
+@media screen and (max-width: 700px){
+  h1{
+    font-size: 8em !important;
+  }
+  a.btn{
+    width: 200px !important;
+    font-size: .8em !important;
+  }
+  .hide-numbers{
+    display: block;
+  }
+  .instagram-container{
+    display: none;
+  }
+  .box-galery{
+    height: 250px;
+  }
+  .redes-container{
+    display: block;
+    text-align: center;
+  }
+  .redes-container div.box{
+    width: 100%;
+    margin: 2em auto !important;
+    border-color: grey;
+  }
+  
+}
+
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}

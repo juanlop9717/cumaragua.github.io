@@ -696,10 +696,17 @@ a:hover{
     height: 250px;
   }
   
-
-
 }
 
+@media screen and (max-height: 700px){
+  h1{
+    font-size: 12em !important;
+  }
+  a.btn{
+    width: 200px !important;
+    font-size: 1em !important;
+  }
+}
 
 
 @media screen and (max-width: 400px){
@@ -730,7 +737,5 @@ a:hover{
   .banner{
     margin-top: 8em;
   }
-
-  
- 
 }
+

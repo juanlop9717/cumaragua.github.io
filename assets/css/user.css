@@ -708,10 +708,15 @@ a:hover{
     font-size: 1em !important;
   }
   .main-logo{
-    height: 175px;
+    height: 150px;
   }
   .navbar{
-  margin-top: -1em;
+  margin-top: -.3em;
+  }
+  ul.nav{
+    font-size: .8em;
+    margin-top: 0;
+
   }
 
 }

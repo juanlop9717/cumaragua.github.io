@@ -631,6 +631,8 @@ a:hover{
   color: white;
 }
 
+
+
 @media screen and (max-width:1600px){
   h1{
     font-size: 14em !important;
@@ -675,7 +677,6 @@ a:hover{
     height: 150px;
   }
 
-
 }
 
 @media screen and (max-width: 700px){
@@ -706,6 +707,13 @@ a:hover{
     width: 200px !important;
     font-size: 1em !important;
   }
+  .main-logo{
+    height: 175px;
+  }
+  .navbar{
+  margin-top: -1em;
+  }
+
 }
 
 

@@ -42,7 +42,7 @@ h4{
 .main-logo{
   height: 200px;
   margin-top: -65px;
-  margin-left: -190px;
+  margin-left: -40px;
 }
 
 .btn-lg{
@@ -555,6 +555,7 @@ div.cuadro-ramon{
 
 .banner{
     width: 100%;
+    margin-top: -.5em !important;
   }
 
 
@@ -663,6 +664,16 @@ a:hover{
   .navbar li{
     font-size: 1.5em !important;
   }
+  .box-galery{
+    height: 300px;
+  }
+  .box i{
+    font-size: 6em;
+  }
+  .box{
+    width: 150px;
+    height: 150px;
+  }
 
 
 }
@@ -678,6 +689,15 @@ a:hover{
   .hide-numbers{
     display: block;
   }
+  .instagram-container{
+    display: none;
+  }
+  .box-galery{
+    height: 250px;
+  }
+  
+
+
 }
 
 
@@ -710,7 +730,7 @@ a:hover{
   .banner{
     margin-top: 8em;
   }
-  
+
   
  
 }

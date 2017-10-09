@@ -1,3 +1,16 @@
+
+#echo-banner{
+  background-color: #2c3e50;
+  width: 100%;
+  height: 100%;
+  color: white;
+  margin-top: 2em
+}
+
+img#echonode{
+  margin-left: 1em;
+}
+
 :root{
   font-size: 14px;
 };
@@ -159,6 +172,8 @@ a:hover{
 .btn.btn-primary{
   color: #e67e22;
   border: 3px solid  #BA5E0D;
+  width: 40%;
+  text-align: center;
 }
 
 .btn-white{
@@ -294,7 +309,6 @@ section#integrantes{
 }
 
 .site-footer{
-  padding:20px 0;
   text-align:center;
 }
 
@@ -401,6 +415,7 @@ h2{
 .banner p.lead{
   font-size: 3em;
   color: white;
+  margin-bottom: 1em;
 }
 
 span.names{
@@ -589,7 +604,7 @@ div.cuadro-ramon{
 
 .box-galery{
   width: 30%;
-  height: 400px;
+  height: 30%;
 }
 
 .redes-container{
@@ -609,8 +624,8 @@ div.cuadro-ramon{
   font-size: 10em;
 }
 
-a:hover{
-  text-decoration: none;
+a:hover, a:visited, a:active, a:link{
+  text-decoration: none !important;
 }
 
 #twitter:hover{
@@ -650,15 +665,12 @@ a:hover{
   h1{
      font-size: 12em !important;
   }
+
   p.lead{
     font-size: 2em !important;
   }
   h2{
     font-size: 6em !important;
-  }
-  a.btn{
-    width: 250px !important;
-    font-size: 1em !important;
   }
   .hide-names, .hide-numbers{
     display: none
@@ -666,9 +678,9 @@ a:hover{
   .navbar li{
     font-size: 1.5em !important;
   }
-  .box-galery{
+/*  .box-galery{
     height: 300px;
-  }
+  }*/
   .box i{
     font-size: 6em;
   }
@@ -684,10 +696,7 @@ a:hover{
   h1{
     font-size: 12em !important;
   }
-  a.btn{
-    width: 200px !important;
-    font-size: 1em !important;
-  }
+
   .main-logo{
     height: 150px;
   }
@@ -705,14 +714,49 @@ a:hover{
 }
 
 
-@media screen and (max-width: 400px){
-  h1{
+@media screen and (min-width: 760px){
+  .banner{
+    margin-top: 8em;
+  }
+}
 
-     font-size: 5em !important;
+@media screen and (max-width: 700px){
+  h1{
+    font-size: 8em !important;
   }
   a.btn{
-    width: 150px !important;
-    font-size: .7em !important;
+    width: 80% !important;
+    font-size: .8em !important;
+  }
+  .hide-numbers{
+    display: block;
+  }
+  .instagram-container{
+    display: none;
+  }
+/*  .box-galery{
+    height: 250px;
+  }*/
+  .redes-container{
+    display: block;
+    text-align: center;
+  }
+  .redes-container div.box{
+    width: 100%;
+    margin: 2em auto !important;
+    border-color: grey;
+  }
+  
+}
+
+@media screen and (max-width: 400px){
+  h1{
+     margin-top: .5em;
+     font-size: 6em !important;
+  }
+  a.btn{
+    width: 90% !important;
+    font-size: .8em !important;
   }
   p.lead{
     font-size: 1.5em !important;
@@ -725,41 +769,6 @@ a:hover{
   }
   #contacto .container{
     width: 100%;
-  }
-  
-}
-
-@media screen and (min-width: 760px){
-  .banner{
-    margin-top: 8em;
-  }
-}
-
-@media screen and (max-width: 700px){
-  h1{
-    font-size: 8em !important;
-  }
-  a.btn{
-    width: 200px !important;
-    font-size: .8em !important;
-  }
-  .hide-numbers{
-    display: block;
-  }
-  .instagram-container{
-    display: none;
-  }
-  .box-galery{
-    height: 250px;
-  }
-  .redes-container{
-    display: block;
-    text-align: center;
-  }
-  .redes-container div.box{
-    width: 100%;
-    margin: 2em auto !important;
-    border-color: grey;
   }
   
 }

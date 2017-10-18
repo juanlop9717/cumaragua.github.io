@@ -206,6 +206,17 @@ a:hover{
   height: 100vh;
 }
 
+@media screen and (max-width: 990px){
+  .hero{
+    background-image: url(../../assets/img/mobile.png) !important;
+    height: 100vh !important;
+  }
+
+  h1{
+    margin-top: 1em !important;
+  }
+}
+
 .login-card .profile-name-card{
   color:  #BA5E0D;
   font-size: 2em !important;
@@ -690,8 +701,14 @@ a:hover, a:visited, a:active, a:link{
 
 }
 
+@media screen and (min-height: 1000px){
+  h1{
+    margin-top: 1em !important;
+  }
+}
 
-@media screen and (max-height: 700px){
+
+@media screen and (max-height: 781px){
   h1{
     font-size: 12em !important;
   }
@@ -707,7 +724,7 @@ a:hover, a:visited, a:active, a:link{
     margin-top: 0;
   }
   .jumbotron.hero{
-    height: 120vh;
+    height: 130vh;
   }
 
 }
